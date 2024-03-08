@@ -2,7 +2,7 @@ steps:
 - name: 'gcr.io/cloud-builders/kubectl'
   args: ['set', 'image', 'deployment/mydepl', 'my-image=gcr.io/my-project/myimage']
   env:
-  - 'CLOUDSDK_COMPUTE_ZONE=asia-east-1'
+  - 'CLOUDSDK_COMPUTE_ZONE=asia-east-1a'
   - 'CLOUDSDK_CONTAINER_CLUSTER=my-cluster'
 - name: 'gcr.io/cloud-builders/docker'
   args: ['build', '-t', 'gcr.io/my-project-id/myimage', '.']
