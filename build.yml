@@ -10,3 +10,5 @@ steps:
 serviceAccount: '514217563277-compute@developer.gserviceaccount.com'
 options:
   logging: CLOUD_LOGGING_ONLY
+
+# Check the fetch command
